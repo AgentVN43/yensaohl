@@ -1,0 +1,165 @@
+{
+  "banners": [
+    {
+      "image": "images/home/home1.png",
+      "url": "/#contact",
+      "titles": [
+        "WE CREATE THE WEB",
+        "Create amazing design",
+        "with Rixso template",
+        "Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare."
+      ]
+    },
+    {
+      "image": "images/home/home4.png",
+      "url": "/#contact",
+      "titles": [
+        "Ready to start your next web project now?",
+        "When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it."
+      ]
+    }
+  ],
+  "sections": {
+    "services": {
+      "title": "Our solution for your business",
+      "description": "We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.",
+      "service": [
+        {
+          "image": "",
+          "title": "Hacking",
+          "description": "Attack you competitor"
+        },
+        {
+          "image": "",
+          "title": "Pentesting",
+          "description": "Attack you competitor"
+        },
+        {
+          "image": "",
+          "title": "Hacking",
+          "description": "Attack you competitor"
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Our Portfolio",
+      "description": "Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results!",
+      "project": [
+        {
+          "image": "images/portfolio/work-8.jpg",
+          "title": "Nike airmax",
+          "description": "Graphics Designer",
+          "url": "/#contact"
+        },
+        {
+          "image": "images/portfolio/work-2.jpg",
+          "title": "Spiritually &amp; Mountains",
+          "description": "Web Designer",
+          "url": "/#contact"
+        },
+        {
+          "image": "images/portfolio/work-3.jpg",
+          "title": "Temple &amp; Street Food",
+          "description": "Sanfransisco",
+          "url": "/#contact"
+        },
+        {
+          "image": "images/portfolio/work-4.jpg",
+          "title": "Imperial Capital",
+          "description": "Toronto",
+          "url": "/#contact"
+        },
+        {
+          "image": "images/portfolio/work-5.jpg",
+          "title": "City of angels",
+          "description": "Canada",
+          "url": "/#contact"
+        },
+        {
+          "image": "images/portfolio/work-6.jpg",
+          "title": "Galleries &amp; Shopping",
+          "description": "Web Developer",
+          "url": "/#contact"
+        }
+      ]
+    },
+    "price": {
+      "title": "Our Pricing",
+      "description": "Tools are beyond the one-click install, async tech merges with ultimate flexibility experiences that have meaning and add a value.",
+      "package": [
+        {
+          "title": "REGULAR",
+          "prices": "10",
+          "unit": "Per Month",
+          "detail": [
+            "Bandwidth: 1GB",
+            "Online space: 500MB",
+            "Support: No",
+            "Domain: 1",
+            "50 Projects per month",
+            "-"
+          ]
+        },
+        {
+          "title": "STARTUP",
+          "prices": "30",
+          "unit": "Per Month",
+          "detail": [
+            "Bandwidth: 2GB",
+            "Online space: 1GB",
+            "Support: No",
+            "Domain: 3",
+            "200 Projects per month",
+            "Hidden Fees: No"
+          ]
+        },
+        {
+          "title": "BUSINESS",
+          "prices": "80",
+          "unit": "Per Month",
+          "detail": [
+            "Bandwidth: 4GB",
+            "Online space: 2GB",
+            "Support: No",
+            "Domain: Unlimited",
+            "Unlimited Projects per month",
+            "Hidden Fees: No"
+          ]
+        }
+      ]
+    }
+  },
+  "profile": {
+    "title": "A Digital web studio creating stunning & Engaging online Experiences",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+    "avatars": [
+      {
+        "image": "images/team/1.jpg",
+        "name": "AnNK",
+        "position": "CEO/Founder"
+      },
+      {
+        "image": "images/team/2.jpg",
+        "name": "Wade G. Wilhite",
+        "position": "CTO/Co-Founder"
+      },
+      {
+        "image": "images/team/3.jpg",
+        "name": "Matthew B. Morales",
+        "position": "CEO"
+      },
+      {
+        "image": "images/team/4.jpg",
+        "name": "Luke L. Johnston",
+        "position": "Web Developer"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact us!",
+    "descript": "Find the perfect business template for any type of business size. Browse be websites created for small businesses, such as online service providers.",
+    "email": "annk.sale@gmail.com",
+    "phone": "+84 767531990",
+    "addr": "61 Tran Thi Dieu street, HCM city"
+  }
+}

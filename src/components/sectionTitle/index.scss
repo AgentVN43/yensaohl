@@ -1,0 +1,49 @@
+.section-title-container {
+    margin-bottom: 1.5em;
+
+    .section-title {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        position: relative;
+        width: 100%
+
+        i {
+            margin-right: .5em;
+            opacity: .6
+
+            icon-angle-right {
+                margin-left: 10px;
+                margin-right: 0
+            }
+
+        }
+
+        span {
+            text-transform: uppercase
+        }
+
+        small {
+            font-size: 1em;
+            font-weight: 400;
+            opacity: .7;
+            padding-left: 15px;
+            text-transform: none
+        }
+
+        b {
+            background-color: currentColor;
+            display: block;
+            flex: 1;
+            height: 2px;
+            opacity: .1
+        }
+        a {
+            display: block;
+            font-size: .8em;
+            margin-left: auto;
+            padding-left: 15px
+        }
+    }
+}
