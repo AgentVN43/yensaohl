@@ -11,20 +11,20 @@ export default function Navbar() {
         <a className="navbar-brand logo" href="/">
           <span className="logo-light-mode">
             <img
-              src="/images/logo-light.png"
+              src="/images/logo-light.jpg"
               className="logo-light"
               alt=""
               height={22}
             />
             <img
-              src="/images/logo-dark.png"
+              src="/images/logo-light.jpg"
               className="logo-dark"
               alt=""
               height={22}
             />
           </span>
           <img
-            src="images/logo-light.png"
+            src="images/logo-light.jpg"
             className="logo-dark-mode"
             alt=""
             height={22}
@@ -44,21 +44,19 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto navbar-center" id="mySidenav">
             <li className="nav-item">
-              {/* <Link to="/" className="nav-link">Home</Link> */}
+            
               <ScrollLink
-                to="home"
+                to="mua_hang"
                 smooth={true}
                 duration={200}
                 className="nav-link"
                 style={{ cursor: 'pointer' }}
               >
-                Home
+                MUA HÀNG
               </ScrollLink>
             </li>
-            <li className="nav-item">
-              {/* <a className="nav-link" href="#service">
-                Services
-              </a> */}
+            {/* <li className="nav-item">
+              
               <ScrollLink
                 to="service"
                 smooth={true}
@@ -123,7 +121,7 @@ export default function Navbar() {
               >
                 Contact
               </ScrollLink>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
