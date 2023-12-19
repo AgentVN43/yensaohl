@@ -4,17 +4,27 @@
 
 body {
   //color: #3a0d63;
-  font-family: 'Roboto', serif;
+  font-family: 'Playfair Display', serif;
   font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+// Custom
+
+.text-price {
+  color: #ff0000 !important;
+}
+
+.footer-alt2{
+  background-color: #cf2e2e;
 }
 
 p {
   line-height: 1.8;
-  color: #C0C0C0;
+  color: #ffffff;
 }
 
 .section {
