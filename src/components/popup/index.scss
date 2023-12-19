@@ -49,7 +49,11 @@
   padding:16px 16px 24px;
   transform:translate(-50%,-50%);
   background-color:#dee4e1;
-  transition:opacity .25s ease,visibility 0s ease
+  transition:opacity .25s ease,visibility 0s ease;
+
+  p{
+    color: RED;
+  }
 }
 .popup-form-apply .background-blue{
   position:relative;

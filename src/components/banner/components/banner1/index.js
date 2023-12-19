@@ -25,8 +25,8 @@ export default function Banner1() {
             </h1>
             <p className="text-white-50 fs-16">{banners[0].titles[3]}</p>
             <div className="pt-4">
-              <a href={banners[0].url} className="btn btn-primary">
-                View More
+              <a href={banners[0].url} className="btn btn-primary" target="_blank" rel="noreferrer">
+              {banners[0].label}
                 <i className="mdi mdi-arrow-right ms-1" />
               </a>
             </div>

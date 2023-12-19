@@ -12,6 +12,16 @@ const Popup = ({ onClose }) => {
           <p>Địa chỉ: Trụ sở: 25/12/23 Bùi Quang Là, P.12, Q.Gò Vấp</p>
           <p>Điện thoại: 0983579329</p>
           <p>Email: yensaohoale@gmail.com</p>
+          <div className="text-center mt-4">
+            <a
+              href="https://zalo.me/0983579329"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-primary"
+            >
+              MUA HÀNG QUA ZALO <i className="mdi mdi-arrow-right" />
+            </a>
+          </div>
         </div>
         <div className="clone-form-apply">
           <a href="#" className="clone-button-form" onClick={onClose}>

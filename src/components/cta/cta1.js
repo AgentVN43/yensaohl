@@ -20,8 +20,8 @@ export default function CallToAction() {
             {banners[1].titles[1]}
             </p>
             <div className="text-center mt-4">
-              <a href= {banners[1].url} className="btn btn-primary">
-                Get Started <i className="mdi mdi-arrow-right" />
+              <a href= {banners[1].url} target="_blank" rel="noreferrer" className="btn btn-primary" >
+              {banners[1].label} <i className="mdi mdi-arrow-right" />
               </a>
             </div>
           </div>

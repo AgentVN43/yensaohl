@@ -1,5 +1,6 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
+import Banner2 from "../banner/components/banner2";
 
 export default function Navbar() {
   return (
@@ -7,6 +8,7 @@ export default function Navbar() {
       className="navbar navbar-expand-lg fixed-top nav-sticky sticky"
       id="navbar"
     >
+      <Banner2/>
       <div className="container">
         <a className="navbar-brand logo" href="/">
           <span className="logo-light-mode">
@@ -14,20 +16,20 @@ export default function Navbar() {
               src="/images/logo-light.jpg"
               className="logo-light"
               alt=""
-              height={22}
+              height={44}
             />
             <img
               src="/images/logo-light.jpg"
               className="logo-dark"
               alt=""
-              height={22}
+              height={44}
             />
           </span>
           <img
             src="images/logo-light.jpg"
             className="logo-dark-mode"
             alt=""
-            height={22}
+            height={44}
           />
         </a>
         <button

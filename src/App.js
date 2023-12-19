@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
-import Home from "./pages/Home";
 import Home2 from "./pages/Home/index2";
 export default function App() {
   return (

@@ -1,18 +1,20 @@
 {
   "banners": [
     {
-      "image": "images/home/home1.png",
-      "url": "/#contact",
+      "image": "images/home/home_yensao.png",
+      "label": "MUA HÀNG",
+      "url": "https://zalo.me/0983579329",
       "titles": [
-        "WE CREATE THE WEB",
-        "Create amazing design",
-        "with Rixso template",
-        "Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare."
+        "",
+        "YẾN SÀO HÒA LÊ",
+        "Sức khỏe cho mọi gia đình",
+        ""
       ]
     },
     {
-      "image": "images/home/home4.png",
-      "url": "/#contact",
+      "image": "images/home/footer.webp",
+      "label": "MUA HÀNG",
+      "url": "https://zalo.me/0983579329",
       "titles": [
         "Ready to start your next web project now?",
         "When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it."
