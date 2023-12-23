@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Popup from "../popup";
 
-export default function Item2({ url, name, imageValue, regular_price }) {
+export default function Item2({ url, name, imageValue, regular_price,title }) {
   const [ShowPopup, setShowPopup] = useState(false);
 
   const handleImageClick = () => {
@@ -19,11 +19,11 @@ export default function Item2({ url, name, imageValue, regular_price }) {
         data-groups='["profile"]'
       >
         <div className="card portfolio mt-4 overflow-hidden border-0">
-          <a href={url} title="Project Name">
+          <a href={url} title={title}>
             <img
               className="img-fluid rounded-3"
               src={imageValue}
-              alt={2}
+              alt={name}
               onClick={handleImageClick}
             />
             <div className="item-mask ps-3">

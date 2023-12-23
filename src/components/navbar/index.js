@@ -1,14 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import Banner2 from "../banner/components/banner2";
 
 export default function Navbar() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          `https://yensaohoale.annk.info/api/category`
+        );
+
+        const fetchedData = await response.json();
+        setData(fetchedData);
+      } catch (error) {
+        console.error(`Error fetching data:`);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  
+  const handleSetActive = (to) => {
+    console.log(to);
+  };
+
   return (
     <nav
       className="navbar navbar-expand-lg fixed-top nav-sticky sticky"
       id="navbar"
     >
-      <Banner2/>
+      <Banner2 />
       <div className="container">
         <a className="navbar-brand logo" href="/">
           <span className="logo-light-mode">
@@ -45,85 +69,19 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto navbar-center" id="mySidenav">
-            <li className="nav-item">
-            
-              <ScrollLink
-                to="mua_hang"
-                smooth={true}
-                duration={200}
-                className="nav-link"
-                style={{ cursor: 'pointer' }}
-              >
-                MUA HÀNG
-              </ScrollLink>
-            </li>
-            {/* <li className="nav-item">
-              
-              <ScrollLink
-                to="service"
-                smooth={true}
-                duration={200}
-                className="nav-link"
-                style={{ cursor: 'pointer' }}
-              >
-                Services
-              </ScrollLink>
-            </li>
-            <li className="nav-item">
-              <ScrollLink
-                to="portfolio"
-                smooth={true}
-                duration={200}
-                className="nav-link"
-                style={{ cursor: 'pointer' }}
-              >
-                Works
-              </ScrollLink>
-            </li>
-            <li className="nav-item">
-              <ScrollLink
-                to="price"
-                smooth={true}
-                duration={200}
-                className="nav-link"
-                style={{ cursor: 'pointer' }}
-              >
-                Pricing
-              </ScrollLink>
-            </li>
-            <li className="nav-item">
-              <ScrollLink
-                to="about"
-                smooth={true}
-                duration={200}
-                className="nav-link"
-                style={{ cursor: 'pointer' }}
-              >
-                About
-              </ScrollLink>
-            </li>
-            <li className="nav-item">
-              <ScrollLink
-                to="about"
-                smooth={true}
-                duration={200}
-                className="nav-link"
-                style={{ cursor: 'pointer' }}
-              >
-                Blog
-              </ScrollLink>
-            </li>
-            <li className="nav-item">
-              <ScrollLink
-                to="contact"
-                smooth={true}
-                duration={200}
-                className="nav-link"
-                style={{ cursor: 'pointer' }}
-              >
-                Contact
-              </ScrollLink>
-            </li> */}
+            {data.map((item) => (
+              <li className="nav-item" key={item.title}>
+                <ScrollLink
+                  to={item.title}
+                  smooth={true}
+                  duration={200}
+                  className="nav-link"
+                  style={{ cursor: "pointer" }}
+                >
+                  {item.title}
+                </ScrollLink>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

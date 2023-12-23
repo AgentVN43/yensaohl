@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #0c0b10;
   background-color: #fff;
@@ -42,11 +42,15 @@ p {
   padding-right: 26px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover,
 .navbar .navbar-nav .nav-item .nav-link:focus,
 .navbar .navbar-nav .nav-item .nav-link.active {
-  color: rgb(162, 9, 55);
+  /* color: rgb(162, 9, 55); */
+  /* background-color: black; */
+  color: white;
+
 }
 .navbar .navbar-nav .nav-item:last-child .nav-link {
   padding-right: 0px !important;
@@ -598,7 +602,7 @@ p {
   background-color: rgba(140, 141, 150, 0.1) !important;
 }
 .text-muted {
-  color: #ffffff !important;
+  color: #000000 !important;
   
 }
 .border-muted {
@@ -1219,11 +1223,11 @@ p {
 }
 .testi-box .testi-box-arrow::before {
   position: absolute;
-  content: "\F0757";
-  font: normal normal normal 24px/1 "Material Design Icons";
+  content: "\F6B0";
+  font: normal normal normal 24px/1 "bootstrap-icons";
   top: -30px;
   font-size: 60px;
-  color: #dae0e5;
+  color: rgb(162, 9, 55);
   left: 10px;
 }
 .tns-outer {

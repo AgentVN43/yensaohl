@@ -164,5 +164,39 @@
     "email": "annk.sale@gmail.com",
     "phone": "+84 767531990",
     "addr": "61 Tran Thi Dieu street, HCM city"
-  }
+  },
+  "ncc": [
+    {
+      
+      "logo": "images/npp/ThanhGiang1.jpg",
+      "image": "images/npp/ThanhGiang1.jpg",
+      "label": "MUA HÀNG",
+      "url": "https://zalo.me/0983579329",
+      "titles": [
+        "Nhà phân phối: Thành Giang",
+        "Huỳnh Thị Tươi, P.Tân Bình, TP.Dĩ An, Bình Dương"
+      ]
+    },
+    {
+      
+      "logo": "images/npp/NgocMinh.jpg",
+      "image": "images/npp/NgocMinh.jpg",
+      "label": "MUA HÀNG",
+      "url": "https://zalo.me/0983579329",
+      "titles": [
+        "Nhà phân phối: Ngọc Minh",
+        "7 Nguyễn Mậu Tài, Gia Lâm"
+      ]
+    }, {
+      
+      "logo": "images/npp/ThuPhuong.jpg",
+      "image": "images/npp/ThuPhuong.jpg",
+      "label": "MUA HÀNG",
+      "url": "https://zalo.me/0983579329",
+      "titles": [
+        "Nhà phân phối: Thu Phương",
+        "Minh Tân - Quang Minh - Gia Lộc - Hải Dương"
+      ]
+    }
+  ]
 }
