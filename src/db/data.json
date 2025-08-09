@@ -1,21 +1,24 @@
 {
   "banners": [
     {
-      "image": "images/home/home1.png",
-      "url": "/#contact",
+      "image": "images/home/home_yensao.png",
+      "label": "MUA HÀNG",
+      "url": "https://zalo.me/0983579329",
       "titles": [
-        "WE CREATE THE WEB",
-        "Create amazing design",
-        "with Rixso template",
-        "Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare."
+        "",
+        "YẾN SÀO HÒA LÊ",
+        "Sức khỏe cho mọi gia đình",
+        ""
       ]
     },
     {
-      "image": "images/home/home4.png",
-      "url": "/#contact",
+      "image": "images/home/footer.webp",
+      "label": "MUA HÀNG",
+      "url": "https://zalo.me/0983579329",
       "titles": [
-        "Ready to start your next web project now?",
-        "When a good idea comes, you know, part of my job is to move it around, just see what people think, get people talking about it."
+        "100% YẾN THIÊN NHIÊN",
+        "KHÔNG HÓA CHẤT TRONG KHI CHẾ BIẾN",
+        "YẾN SÀO HÒA LÊ - SỨC KHỎE CỦA MỌI GIA ĐÌNH"
       ]
     }
   ],
@@ -161,5 +164,39 @@
     "email": "annk.sale@gmail.com",
     "phone": "+84 767531990",
     "addr": "61 Tran Thi Dieu street, HCM city"
-  }
+  },
+  "ncc": [
+    {
+      
+      "logo": "images/npp/ThanhGiang1.jpg",
+      "image": "images/npp/ThanhGiang1.jpg",
+      "label": "MUA HÀNG",
+      "url": "https://zalo.me/0983579329",
+      "titles": [
+        "Nhà phân phối: Thành Giang",
+        "Huỳnh Thị Tươi, P.Tân Bình, TP.Dĩ An, Bình Dương"
+      ]
+    },
+    {
+      
+      "logo": "images/npp/NgocMinh.jpg",
+      "image": "images/npp/NgocMinh.jpg",
+      "label": "MUA HÀNG",
+      "url": "https://zalo.me/0983579329",
+      "titles": [
+        "Nhà phân phối: Ngọc Minh",
+        "7 Nguyễn Mậu Tài, Gia Lâm"
+      ]
+    }, {
+      
+      "logo": "images/npp/ThuPhuong.jpg",
+      "image": "images/npp/ThuPhuong.jpg",
+      "label": "MUA HÀNG",
+      "url": "https://zalo.me/0983579329",
+      "titles": [
+        "Nhà phân phối: Thu Phương",
+        "Minh Tân - Quang Minh - Gia Lộc - Hải Dương"
+      ]
+    }
+  ]
 }

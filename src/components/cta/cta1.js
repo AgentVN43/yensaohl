@@ -16,12 +16,15 @@ export default function CallToAction() {
             <h3 className="text-center text-white">
             {banners[1].titles[0]}
             </h3>
-            <p className="text-white-50 text-center lh-base fs-16 mt-3">
+            <h3 className="text-white text-center lh-base fs-24 mt-3">
             {banners[1].titles[1]}
-            </p>
+            </h3>
+            <h3 className="text-white text-center lh-base fs-24 mt-3">
+            {banners[1].titles[2]}
+            </h3>
             <div className="text-center mt-4">
-              <a href= {banners[1].url} className="btn btn-primary">
-                Get Started <i className="mdi mdi-arrow-right" />
+              <a href= {banners[1].url} target="_blank" rel="noreferrer" className="btn btn-primary" >
+              {banners[1].label} <i className="mdi mdi-arrow-right" />
               </a>
             </div>
           </div>

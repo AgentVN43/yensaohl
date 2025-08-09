@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #0c0b10;
   background-color: #fff;
@@ -32,7 +32,7 @@ p {
   }
 }
 .navbar {
-  padding: 15px 0px;
+  padding: 15px 205px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -42,11 +42,15 @@ p {
   padding-right: 26px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover,
 .navbar .navbar-nav .nav-item .nav-link:focus,
 .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #407da0;
+  /* color: rgb(162, 9, 55); */
+  /* background-color: black; */
+  color: white;
+
 }
 .navbar .navbar-nav .nav-item:last-child .nav-link {
   padding-right: 0px !important;
@@ -72,7 +76,7 @@ p {
   display: none;
 }
 .navbar .nav-btn {
-  color: #407da0;
+  color: rgb(162, 9, 55);
   border: 1px solid #ebebeb;
   background-color: #fff !important;
 }
@@ -88,7 +92,7 @@ p {
 .nav-sticky .navbar-nav .nav-item .nav-link:active,
 .nav-sticky .navbar-nav .nav-item .nav-link:focus,
 .nav-sticky .navbar-nav .nav-item .nav-link.active {
-  color: #407da0;
+  color: rgb(162, 9, 55);
 }
 .nav-sticky .navbar-brand .logo-light {
   display: none;
@@ -98,8 +102,8 @@ p {
 }
 .nav-sticky .nav-btn {
   color: #fff !important;
-  border: 1px solid #407da0;
-  background-color: #407da0 !important;
+  border: 1px solid rgb(162, 9, 55);
+  background-color: rgb(162, 9, 55) !important;
 }
 .nav-sticky .navbar-toggler {
   padding: 0px;
@@ -185,20 +189,20 @@ p {
   box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.05) !important;
 }
 .bg-primary {
-  background-color: #407da0 !important;
+  background-color: rgb(162, 9, 55) !important;
 }
 .bg-soft-primary {
   background-color: rgba(64, 125, 160, 0.1) !important;
 }
 .text-primary {
-  color: #407da0 !important;
+  color: rgb(162, 9, 55) !important;
 }
 .border-primary {
-  color: #407da0 !important;
+  color: rgb(162, 9, 55) !important;
 }
 .btn-soft-primary {
   background-color: rgba(64, 125, 160, 0.25) !important;
-  color: #407da0 !important;
+  color: rgb(162, 9, 55) !important;
 }
 .btn-soft-primary:hover,
 .btn-soft-primary:focus,
@@ -211,8 +215,8 @@ p {
   background: #3a7291;
 }
 .btn-primary {
-  background: #407da0;
-  border-color: #407da0 !important;
+  background: rgb(162, 9, 55);
+  border-color: rgb(162, 9, 55) !important;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -222,14 +226,14 @@ p {
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary .open > .dropdown-toggle.btn-primary {
-  background: #3a7291;
-  border-color: #3a7291;
+  background: #e3104f;
+  border-color: #e3104f;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 .btn-outline-primary {
-  color: #407da0;
-  border-color: #407da0;
+  color: rgb(162, 9, 55);
+  border-color: rgb(162, 9, 55);
 }
 .btn-outline-primary:hover,
 .btn-outline-primary:focus,
@@ -239,8 +243,8 @@ p {
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary .open > .dropdown-toggle.btn-primary {
-  background: #407da0;
-  border-color: #407da0;
+  background: rgb(162, 9, 55);
+  border-color: rgb(162, 9, 55);
 }
 .bg-secondary {
   background-color: #6c757d !important;
@@ -598,7 +602,7 @@ p {
   background-color: rgba(140, 141, 150, 0.1) !important;
 }
 .text-muted {
-  color: #ffffff !important;
+  color: #000000 !important;
   
 }
 .border-muted {
@@ -887,7 +891,7 @@ p {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   background: #fff;
-  color: #407da0 !important;
+  color: rgb(162, 9, 55) !important;
 }
 .btn-custom-white:hover,
 .btn-custom-white:focus,
@@ -1037,7 +1041,7 @@ p {
   box-shadow: none !important;
 }
 .home-2 .registration-input-box:focus {
-  border-color: #407da0;
+  border-color: rgb(162, 9, 55);
 }
 .home-3 {
   background-position: center;
@@ -1094,7 +1098,7 @@ p {
   color: #0c0b10;
 }
 .blog-title:hover {
-  color: #407da0;
+  color: rgb(162, 9, 55);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
@@ -1115,8 +1119,8 @@ p {
 .filter-options li.active,
 .filter-options li:hover {
   color: #fff;
-  background-color: #407da0;
-  border: 1px solid #407da0;
+  background-color: rgb(162, 9, 55);
+  border: 1px solid rgb(162, 9, 55);
 }
 .item-box {
   overflow: hidden;
@@ -1146,7 +1150,7 @@ p {
   height: 48px;
   width: 48px;
   fill: rgba(255, 99, 72, 0.2);
-  color: #407da0;
+  color: rgb(162, 9, 55);
 }
 .service-head {
   overflow: hidden;
@@ -1169,14 +1173,14 @@ p {
   transition: all 0.3s ease-in-out;
 }
 .features-icon i {
-  color: #407da0 !important;
+  color: rgb(162, 9, 55) !important;
   line-height: 52px;
   font-size: 30px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .features-icon:hover {
-  background-color: #407da0;
+  background-color: rgb(162, 9, 55);
 }
 .features-icon:hover i {
   color: #fff !important;
@@ -1219,11 +1223,11 @@ p {
 }
 .testi-box .testi-box-arrow::before {
   position: absolute;
-  content: "\F0757";
-  font: normal normal normal 24px/1 "Material Design Icons";
+  content: "\F6B0";
+  font: normal normal normal 24px/1 "bootstrap-icons";
   top: -30px;
   font-size: 60px;
-  color: #dae0e5;
+  color: rgb(162, 9, 55);
   left: 10px;
 }
 .tns-outer {
@@ -1239,7 +1243,7 @@ p {
   border-radius: 50%;
   border: none;
   background-color: rgba(64, 125, 160, 0.2) !important;
-  color: #407da0;
+  color: rgb(162, 9, 55);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   font-size: 18px;
@@ -1248,7 +1252,7 @@ p {
 .tns-outer .tns-controls button:hover,
 .tns-outer .tns-controls button:active {
   outline: none;
-  background-color: #407da0 !important;
+  background-color: rgb(162, 9, 55) !important;
   color: #fff;
 }
 .tns-outer .tns-controls button.active button {
@@ -1275,10 +1279,10 @@ p {
 .tns-outer .tns-nav button:active,
 .tns-outer .tns-nav button.active {
   outline: none;
-  background-color: #407da0 !important;
+  background-color: rgb(162, 9, 55) !important;
 }
 .tns-outer .tns-nav button.tns-nav-active {
-  background-color: #407da0 !important;
+  background-color: rgb(162, 9, 55) !important;
 }
 .form-control {
   height: 46px;
@@ -1291,7 +1295,7 @@ textarea.form-control {
   height: auto;
 }
 .form-control:focus {
-  border-color: #407da0;
+  border-color: rgb(162, 9, 55);
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1315,8 +1319,8 @@ textarea.form-control {
   padding: 10px;
   margin-bottom: 20px;
   text-align: center;
-  border: 2px solid #407da0;
-  color: #407da0;
+  border: 2px solid rgb(162, 9, 55);
+  color: rgb(162, 9, 55);
   border-radius: 5px;
   font-size: 14px;
 }
